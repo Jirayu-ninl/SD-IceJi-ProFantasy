@@ -15,7 +15,7 @@ This model merges with my own 3 models called R-base (realistic), F-base (Fantas
 
 * You use it with any steps, prompt, sampler, ... (anything you want)
 * Prompt: If you don't know what to prompt, Fantasy Prompts by TxcTrtl is a great choice.
-* * Steps: I recommend 30-40, 60-80, and 120-150 (around 100, I think it's not well)
+* * Steps: I recommend 30-45 (You can use higher, but many times do not have a big difference)
 * Sampler: I developed it with DPM++ 2S a Karras, so I recommend this sampler (but others also work fine)
 * Sizes: 512x512, 512x768, 512x904 (Can be used both vertically and horizontally). Not recommended sizes more than 768x768
 * Hires. fix: Use Denoising strength less than 0.6 (but you can try >= 0.7, sometimes you will get problems with the hands)
