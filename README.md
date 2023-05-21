@@ -19,16 +19,11 @@ This model merges with my own 3 models called R-base (realistic), F-base (Fantas
 * Sampler: I developed it with DPM++ 2S a Karras, so I recommend this sampler (but others also work fine)
 * Sizes: 512x512, 512x768, 512x904 (Can be used both vertically and horizontally). Not recommended sizes more than 768x768
 * Hires. fix: Use Denoising strength less than 0.6 (but you can try >= 0.7, sometimes you will get problems with the hands)
-* Lora: It works perfectly with VFX Lora by @DitamAi, and EPI Noise Offset.
-* I do not recommend using Face Lora because you will lose a fantasy style but you can try if you know what you want from it
 
 ## Versioning:
 
-* v1: pilot version
-  * v1-Real: Cinematic style, Realistic photo, less fantasy (if you have a fast GPU and you will generate a batch of many images, I suggest this version)
-  * v1-Max: Ultra Fantasy, Concept Art, Animation, Semi-realistic (If you want semi-realistic or you plan to use img2img to make the image look more realistic, I suggest this version)
-  * v1-Mix: Mix both versions (This is for lazy people who want something in the middle)
-* v2: All of the above, can generate everything (depending on your prompt)
+* v1: Pilot version. Aim to be realistic (Cinematic style, Realistic photo, less fantasy)
+* v2: All tunned. It's stable since version 2.1
 
 ## Download
 
